@@ -12,12 +12,12 @@
     if($_POST['godine']<18)
     {
         echo('Pozdrav, <span style="color: red">'.$_POST['ime']. ' ' .$_POST['prezime'] . '</span>!');
-        echo('<br>Ti nisi punoljetan!');
+        echo('<br>Ti nisi PUNOLJETAN!');
     }
     else
     {
         echo('Pozdrav, <span style="color: green">'.$_POST['ime']. ' ' .$_POST['prezime'] . '</span>!');
-        echo('<br>Vi ste punoljetni!');
+        echo('<br>Vi ste PUNOLJETNI!');
     }
     ?>
 </body>
